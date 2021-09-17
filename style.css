@@ -1,0 +1,110 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    justify-content: space-evenly;
+    display:flex;
+    align-items: center;
+    width: 90%;
+    height: 10vh;
+}
+.logo{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: auto;
+    font-size: 23px;
+    height: 10vh;
+}
+h4{
+    height: 10vh;
+    margin-top: 10px;
+}
+.nav-links {
+     display: flex; 
+    justify-content: space-around; 
+    margin-top: 60px;
+    list-style: none;
+    color: orchid;
+    font-size: 22px;
+     text-decoration: none; 
+    
+}
+
+
+.logo-container{
+ 
+    height: 10px; 
+} 
+
+nav{
+     flex: 2; 
+}
+
+
+
+ .presentation{
+     display: flex;
+     flex: 3;
+     width: 90%;
+     margin: auto;
+     /* min-height: 90vh; */
+    align-items:center; 
+ }
+
+  .intro-text h1{
+   margin-top: 250px;
+   background:linear-gradient(blue,orange) ;
+}
+
+.intro-text p{
+    margin-top: 15px;
+    font-size: 22px;
+}
+ 
+.btn{
+    margin-top: 30px;
+    width: 150px;
+    background: transparent;
+    height: 50px;
+    border: 3px solid yellow;
+    font-size: 15px;
+    color: red;
+}
+
+.btn:hover{
+    background-color:green
+}
+
+.cover{
+    height: 30vh;
+    width: 30vh;
+     display: flex; 
+    
+    margin:auto;
+    margin-bottom: 37px;
+    justify-content: space-evenly;
+
+   
+}
+
+.cover img{
+ animation-name: harry;
+ animation-duration: 10s;
+}
+
+@keyframes harry {
+    from{
+        width: 200px;
+    }
+    to{
+        width: 400px;
+    }
+}
+

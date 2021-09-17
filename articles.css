@@ -1,0 +1,106 @@
+.logo-container{
+ 
+    height: 10px; 
+} 
+
+header{
+    justify-content: space-evenly;
+    display:flex;
+    align-items: center;
+    width: 90%;
+    height: 10vh;
+}
+.logo{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: auto;
+    font-size: 23px;
+    height: 10vh;
+}
+
+.nav-links {
+    display: flex; 
+   justify-content: space-around; 
+   margin-top: 60px;
+   list-style: none;
+   color: orchid;
+   font-size: 22px;
+    text-decoration: none; 
+   
+}
+
+nav{
+    flex: 2; 
+}
+
+
+.heading{
+    text-align: center;
+}
+
+.box1{
+     height: 400px;
+    /* width: 400px; */
+    background-color: aqua;
+    margin:auto;
+    text-align: center;
+    /* background-image: url(/Verna.jpg);  */
+    background-size: cover;
+    color:azure;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    height: 420px;
+   
+}
+
+/* section :hover{
+    height: 500px;
+} */
+
+ section img{
+    /* z-index: 1; */
+    height:200px;
+    width: 300px;
+    /* margin-bottom: 90%; */
+    display: flex;
+    margin: 30px 10px;
+    padding:20px 15px;
+    
+   
+} 
+
+
+.box2{
+    height: 400px;
+   /* width: 400px; */
+   background-color: aqua;
+   margin:auto;
+   text-align: center;
+   /* background-image: url(/Verna.jpg);  */
+   background-size: cover;
+   color:azure;
+   justify-content: center;
+   align-items: center;
+   max-width: 800px;
+   height: 420px;
+   margin-top: 10px;
+}
+
+.box3{
+    height: 400px;
+   /* width: 400px; */
+   background-color: aqua;
+   margin:auto;
+   text-align: center;
+   /* background-image: url(/Verna.jpg);  */
+   background-size: cover;
+   color:azure;
+   justify-content: center;
+   align-items: center;
+   max-width: 800px;
+   height: 420px;
+   margin-top: 10px;
+}
+  
+  

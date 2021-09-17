@@ -1,0 +1,47 @@
+.logo-container{
+ 
+    height: 10px; 
+} 
+
+header{
+    justify-content: space-evenly;
+    display:flex;
+    align-items: center;
+    width: 90%;
+    height: 10vh;
+}
+.logo{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: auto;
+    font-size: 23px;
+    height: 10vh;
+}
+
+.nav-links {
+    display: flex; 
+   justify-content: space-around; 
+   margin-top: 60px;
+   list-style: none;
+   color: orchid;
+   font-size: 22px;
+    text-decoration: none; 
+   
+}
+
+nav{
+    flex: 2; 
+}
+
+.container{
+    height: 100vh;
+    background-color: aqua;
+}
+
+.box1{
+    height: 100vh;
+    width: 600px;
+    margin: auto;
+    margin-top: 10vh;
+    background-color:rebeccapurple;
+}
